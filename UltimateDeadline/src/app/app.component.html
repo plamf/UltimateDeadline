@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Ultimate Deadline
+  </h1>
+  <h2>A visual representation of your remaining (life)time to get things done.</h2>
+</div>
+
+<div style="text-align:center">
+I am
+<input type="number" [(ngModel)]="age" min="1" max="80">
+years old.
+<br>
+<input type="button" value="Show me the damage*" (click)="checkAllUsedWeeks()"> <br>
+*Scroll down for more info
+</div>
+<ul id="weeksList">
+</ul>
+
+<p class="explanationText">
+  The average human lifespan lies somewhere around 80 years.
+  You used up WEEKS already, or PERCENT % of your available time. Approximately SLEEP weeks (SLEEPPERCENT %) of your life have been spent asleep.
+  If you think about doing something (anything, really), you should do it now because you'll most likely be dead sometime around YEAROFDEATH.
+
+  Have a nice day!
+</p>
+
