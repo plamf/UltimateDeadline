@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
     }
   }
 
-  private checkAllUsedWeeks() {
+  public checkAllUsedWeeks() {
     const weeksToCheck = this.age * 52;
 
     this.clearCheckedWeeks();
