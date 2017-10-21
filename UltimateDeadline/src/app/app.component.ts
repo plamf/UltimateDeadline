@@ -70,7 +70,7 @@ export class AppComponent implements OnInit {
 
     // tslint:disable-next-line:max-line-length
     // tslint:disable-next-line:quotemark
-    paragraph.innerHTML = "The average human lifespan lies somewhere around 80 years." + "<br>" + "You used up <strong><u>" + weeksUsed + "</u></strong> weeks already, or <strong><u>" + percentUsed.toFixed(1) + "%</u></strong> of your available time. Approximately <strong><u>" + slept.toFixed(0) + "</u></strong> weeks (<strong><u>" + percentSlept.toFixed(1) + "%</u></strong>) of your life have been spent asleep." + "<br>" + "If you think about doing something (anything, really), you should do it now because you'll most likely be dead sometime around " + "the year <strong><u>" + yearOfDeath + "</u></strong>.<br><br>" + "Have a nice day!";
+    paragraph.innerHTML = "The average human lifespan lies somewhere around 80 years." + "<br><br>" + "You used up <strong><u>" + weeksUsed + "</u></strong> weeks already, or <strong><u>" + percentUsed.toFixed(1) + "%</u></strong> of your available time. Approximately <strong><u>" + slept.toFixed(0) + "</u></strong> weeks (<strong><u>" + percentSlept.toFixed(1) + "%</u></strong>) of your life have been spent asleep." + "<br><br>" + "If you think about doing something (anything, really), you should do it now because you'll most likely be dead sometime around " + "the year <strong><u>" + yearOfDeath + "</u></strong>.<br><br>" + "Have a nice day!";
 
     div.appendChild(paragraph);
   }

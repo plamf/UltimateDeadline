@@ -9,7 +9,8 @@
     "build:aot": "ng build --prod --aot",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "publish": "ng build --prod --base-href 'https://plamf.github.io/UltimateDeadline/' && ngh"
   },
   "private": true,
   "dependencies": {
