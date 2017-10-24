@@ -16,8 +16,8 @@ export class AppComponent implements OnInit {
   }
 
   private generateWeeks() {
+    const el = document.getElementById('weeksList');
     for (let i = 0; i < this.weeks; i++) {
-      const el = document.getElementById('weeksList');
       const cb = document.createElement('input');
       cb.type = 'checkbox';
       cb.className = 'cbWeek';
@@ -58,7 +58,6 @@ export class AppComponent implements OnInit {
   }
 
   private generateExplanation() {
-
     const weeksUsed = this.age * 52;
     const percentUsed = weeksUsed / this.weeks * 100;
     const slept = weeksUsed / 3.3;
